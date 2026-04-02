@@ -97,11 +97,10 @@
     backdrop-filter: blur(10px);
     z-index: 999;
 }
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--orange);
+.logo img {
+    height: 50px; /* ya jo bhi navbar height ho */
+    width: auto;
+    display: block; /* ya inline-block */
 }
 
 .nav-links {
