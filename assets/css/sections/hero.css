@@ -31,11 +31,8 @@
 
 /* BACKGROUND EFFECT */
 .liquid-bg {
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    background: radial-gradient(circle at center, #ff6b0030, transparent 70%);
-    filter: blur(80px);
-    z-index: -1;
-    transition: 0.5s;
+    /* Pehle texture image, phir comma ke baad gradient */
+    background-image: url('background_texture.webp'), 
+                      radial-gradient(circle, rgba(255, 107, 0, 0.19), transparent 70%);
+    background-size: cover, auto; /* Image cover karegi, gradient normal rahega */
 }
