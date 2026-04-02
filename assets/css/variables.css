@@ -1,0 +1,14 @@
+/* ========================= */
+/* GLOBAL VARIABLES */
+/* ========================= */
+
+:root {
+    --orange: #FF6B00;
+    --orange-light: #FFA040;
+    --white: #ffffff;
+    --black: #0f0f0f;
+
+    --font-main: 'Poppins', sans-serif;
+
+    --transition: 0.3s ease;
+}

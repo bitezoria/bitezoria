@@ -1,0 +1,38 @@
+/* ========================= */
+/* CATEGORY GRID */
+/* ========================= */
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 25px;
+    text-align: center;
+}
+
+/* CARD */
+.category {
+    padding: 25px;
+    border-radius: 15px;
+    background: #111;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+/* ICON */
+.category img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+.category p {
+    font-size: 1rem;
+}
+
+/* HOVER */
+.category:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(145deg, #111, #1a1a1a);
+    box-shadow: 0 0 20px #ff6b0030;
+}

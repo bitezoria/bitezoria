@@ -1,0 +1,57 @@
+{
+  "tea": [
+    {"name": "Ginger Tea", "price": "30/40", "tag": "hot"},
+    {"name": "Elaichi Tea", "price": "30/40", "tag": "hot"},
+    {"name": "Masala Tea", "price": "30/40", "tag": "hot"},
+    {"name": "Kesar Tea", "price": "40/50", "tag": "premium"},
+    {"name": "Lemon Tea", "price": "30/40", "tag": "light"}
+  ],
+
+  "coffee": [
+    {"name": "Filter Coffee", "price": "50", "tag": "strong"},
+    {"name": "Black Coffee", "price": "50", "tag": "strong"},
+    {"name": "Classic Coffee", "price": "60", "tag": "balanced"},
+    {"name": "Irish Coffee", "price": "60", "tag": "premium"},
+    {"name": "Cold Coffee", "price": "80", "tag": "cold"}
+  ],
+
+  "shakes": [
+    {"name": "Oreo Shake", "price": "100", "tag": "chocolate"},
+    {"name": "Mango Shake", "price": "100", "tag": "fruit"},
+    {"name": "Strawberry Shake", "price": "100", "tag": "fruit"},
+    {"name": "Banana Shake", "price": "100", "tag": "energy"},
+    {"name": "Chocolate Shake", "price": "100", "tag": "chocolate"}
+  ],
+
+  "boba": [
+    {"name": "Strawberry Boba", "price": "120"},
+    {"name": "Mango Boba", "price": "120"},
+    {"name": "Watermelon Boba", "price": "120"},
+    {"name": "Pineapple Boba", "price": "120"},
+    {"name": "Cappuccino Boba", "price": "120"}
+  ],
+
+  "pizza": [
+    {"name": "Cheese Pizza", "price": "140/220"},
+    {"name": "Paneer Pizza", "price": "140/220"},
+    {"name": "Corn Pizza", "price": "140/200"},
+    {"name": "Capsicum Pizza", "price": "120/200"},
+    {"name": "Onion Pizza", "price": "120/200"}
+  ],
+
+  "burger": [
+    {"name": "Veg Grill", "price": "80"},
+    {"name": "Veg Cheese", "price": "100"},
+    {"name": "Corn Cheese", "price": "120"},
+    {"name": "Paneer Cheese", "price": "120"},
+    {"name": "All In One", "price": "140"}
+  ],
+
+  "icecream": [
+    {"name": "Vanilla", "price": "60"},
+    {"name": "Chocolate", "price": "60"},
+    {"name": "Strawberry", "price": "60"},
+    {"name": "Butterscotch", "price": "60"},
+    {"name": "Mango", "price": "60"}
+  ]
+}

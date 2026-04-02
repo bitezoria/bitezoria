@@ -1,0 +1,79 @@
+/* ========================= */
+/* BUTTON COMPONENT */
+/* ========================= */
+
+.btn-primary {
+    padding: 12px 25px;
+    background: var(--orange);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background: var(--orange-light);
+}
+
+/* ========================= */
+/* CARD COMPONENT */
+/* ========================= */
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ========================= */
+/* MENU CARD */
+/* ========================= */
+
+.menu-card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ========================= */
+/* INPUT COMPONENT */
+/* ========================= */
+
+input, textarea {
+    padding: 12px;
+    border: none;
+    background: #111;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ========================= */
+/* NAV LINK */
+/* ========================= */
+
+.nav-links a {
+    position: relative;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--orange);
+    left: 0;
+    bottom: -5px;
+    transition: var(--transition);
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}

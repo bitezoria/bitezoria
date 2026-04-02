@@ -1,0 +1,41 @@
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* TEXT */
+.hero-content h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.hero-content p {
+    margin-top: 15px;
+    color: var(--orange-light);
+    font-size: 1.2rem;
+}
+
+/* BUTTON */
+.hero-content .btn-primary {
+    margin-top: 20px;
+}
+
+/* BACKGROUND EFFECT */
+.liquid-bg {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle at center, #ff6b0030, transparent 70%);
+    filter: blur(80px);
+    z-index: -1;
+    transition: 0.5s;
+}

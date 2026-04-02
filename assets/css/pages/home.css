@@ -1,0 +1,30 @@
+/* ========================= */
+/* HOME PAGE ONLY STYLES */
+/* ========================= */
+
+/* SECTION GAP CONTROL */
+.hero + .categories {
+    margin-top: -50px;
+}
+
+/* STORY */
+.story {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s ease;
+}
+
+/* REVEAL ACTIVE */
+.story.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* CTA */
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

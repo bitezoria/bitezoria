@@ -1,0 +1,54 @@
+/* ========================= */
+/* MENU GROUP STYLING */
+/* ========================= */
+
+/* CATEGORY HEADING */
+.menu-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--orange);
+}
+
+/* CARD BASE IMPROVE */
+.menu-card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* IMAGE EFFECT */
+.menu-card img {
+    transition: 0.4s ease;
+}
+
+.menu-card:hover img {
+    transform: scale(1.1);
+}
+
+/* ========================= */
+/* CATEGORY COLOR FEEL */
+/* ========================= */
+
+/* TEA / COFFEE */
+.menu-card.steam {
+    background: linear-gradient(145deg, #1a120c, #111);
+}
+
+/* SHAKES / BOBA */
+.menu-card.liquid {
+    background: linear-gradient(145deg, #1a0f0a, #111);
+}
+
+/* ICE CREAM */
+.menu-card.melt {
+    background: linear-gradient(145deg, #1a1410, #111);
+}
+
+/* PIZZA / BURGER */
+.menu-card.cheese {
+    background: linear-gradient(145deg, #1a0c0c, #111);
+}
+
+/* MAGGI / PASTA */
+.menu-card.noodle {
+    background: linear-gradient(145deg, #1a140c, #111);
+}

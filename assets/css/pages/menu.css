@@ -1,0 +1,101 @@
+/* ========================= */
+/* MENU PAGE */
+/* ========================= */
+
+.menu-container {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.menu-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* ========================= */
+/* TABS */
+/* ========================= */
+
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.menu-tabs button {
+    padding: 10px 20px;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: var(--transition);
+}
+
+.menu-tabs button.active,
+.menu-tabs button:hover {
+    background: var(--orange);
+}
+
+/* ========================= */
+/* ITEMS GRID */
+/* ========================= */
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.menu-card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+}
+
+/* IMAGE */
+.menu-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* TEXT */
+.menu-card h3 {
+    margin-top: 10px;
+}
+
+.menu-card p {
+    color: var(--orange-light);
+}
+
+/* ========================= */
+/* INTERACTION BASE */
+/* ========================= */
+
+/* Steam effect (Tea/Coffee) */
+.menu-card.steam::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: radial-gradient(circle, #ffffff20, transparent);
+    animation: steam 2s infinite;
+}
+
+@keyframes steam {
+    0% { transform: translateY(0); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-30px); opacity: 0; }
+}
