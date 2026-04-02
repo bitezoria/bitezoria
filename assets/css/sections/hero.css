@@ -32,7 +32,8 @@
 /* BACKGROUND EFFECT */
 .liquid-bg {
     /* Pehle texture image, phir comma ke baad gradient */
-    background-image: url('background_texture.webp'), 
+    background-image: url('assets/images/backgrounds
+/background_texture.webp'), 
                       radial-gradient(circle, rgba(255, 107, 0, 0.19), transparent 70%);
     background-size: cover, auto; /* Image cover karegi, gradient normal rahega */
 }
